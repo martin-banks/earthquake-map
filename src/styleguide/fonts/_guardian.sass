@@ -1,0 +1,50 @@
+@import ../defaults
+@import ../colors
+
+/* Base setup for for Guarduan sans font */
+=guardian-common
+	+reset
+	font-family: 'Guardian Sans', 'Helvetica', sans-serif
+	color: $color-black
+
+=guardian-light
+	+guardian-common
+	font-style: normal
+	font-weight: 100
+	letter-spacing: 0.5px
+	line-height: 0.9
+
+=guardian-light-italic
+	+guardian-common
+	font-style: italic
+	font-weight: 100
+	letter-spacing: 0.5px
+	line-height: 0.9
+
+=guardian-reg
+	+guardian-common
+	font-style: normal
+	font-weight: 300
+	letter-spacing: 0.5px
+	line-height: 0.9
+
+=guardian-reg-italic
+	+guardian-common
+	font-style: italic
+	font-weight: 300
+	letter-spacing: 0.5px
+	line-height: 0.9
+
+=guardian-bold
+	+guardian-common
+	font-style: normal
+	font-weight: 700
+	letter-spacing: 0.5px
+	line-height: 0.9
+
+=guardian-bold-italic
+	+guardian-common
+	font-style: italic
+	font-weight: 700
+	letter-spacing: 0.5px
+	line-height: 0.9

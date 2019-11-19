@@ -1,0 +1,21 @@
+{
+  "total": 65,
+  "mostPerPerson": {
+    "count": 12,
+    "person": {
+      "image": "profile",
+      "name": "Hon Geoff Brock",
+      "party": "IND",
+      "district": "Frome",
+      "x": "HA",
+      "type": "State",
+      "Income": "Magic Scissors Port Pirie (partner)",
+      "Investments": "OZ Minerals",
+      "Trusts": "N/A",
+      "Interests in land": "Family residence at Port Pirie SA, investment property at Henley Beach SA, home activity at Magic Scissors Port Pirie SA.",
+      "Directorships": "Port Pirie Garden Club (patron), Port Pirie Football League (patron), Port Pirie Softball Association (patron), Laura Music Events (patron), Port Pirie Bowling Club (vice patron), Marrabel Rodeo (vice patron), Clare Valley History Group (member), Port Football and Community Club (No 1 ticket holder), Murray Darling Association (vice chair), Mount Horrocks Historical Society (member), Clare Valley Aero Group (member), North West Agricultural Society (vice president).",
+      "Political and Trade and Professional Associations": "Port Pirie Chamber of Commerce (executive committee)."
+    }
+  },
+  "key": "Directorships"
+}

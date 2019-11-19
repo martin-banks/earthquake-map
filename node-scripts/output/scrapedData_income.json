@@ -1,0 +1,21 @@
+{
+  "total": 50,
+  "mostPerPerson": {
+    "count": 5,
+    "person": {
+      "image": "profile",
+      "name": "Hon Dan van Holst Pellekaan",
+      "party": "LIB",
+      "district": "Stuart",
+      "x": "HA",
+      "type": "State",
+      "Income": "ASEPS Nursing Agency (spouse), VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust.",
+      "Investments": "Stellar Resources shares, VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust, AMP life insurance policy (spouse as beneficiary), Parliamentary Superannuation Scheme life insurance (spouse as beneficiary), Bank SA, Dan and Rebecca van Holst Pellekaan super fund (self-managed).",
+      "Trusts": "VHP Enterprises P/L as trustee for van Holst Pellekaan Family Trust, Flinders Gulf and Outback (FGO) Pty Ltd as trustee for Dan and Rebecca van Holst Pellekaan Family Trust.",
+      "Interests in land": "Residence in Wilmington SA, property in Wilmington SA, commercial property (3) Port Augusta - one leased to 'Buses R Us' public bus service in Port Augusta and the state, unit at Payneham and rural property in Tasmania.",
+      "Directorships": "VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd.",
+      "Political and Trade and Professional Associations": "Business Port Augusta, Country Fire Service Foundation, Liberal Party of Australia (SA), Rural Media SA, Asbestos Victims Association, SA ICPA Lone Members, Port Augusta RSL sub-branch, Kapunda Business Alliance, Women in Agriculture and Business, Royal Flying Doctor Service."
+    }
+  },
+  "key": "Income"
+}

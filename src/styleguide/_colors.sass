@@ -1,0 +1,65 @@
+// Metro support colors
+$color-red-dark: darkred
+$color-red-reg: #ca0a00
+$color-red-light: indianred
+
+$color-blue-dark: midnightblue
+$color-blue-reg: #268DCE
+$color-blue-light: lightsteelblue
+
+$color-green-dark: darkgreen
+$color-green-reg: #72A427
+$color-green-light: lightgreen
+
+$color-yellow-dark: goldenrod
+$color-yellow-reg: gold
+$color-yellow-light: lightyellow
+
+$color-orange-dark: orangered
+$color-orange-reg: #ED9706
+$color-orange-light: orange
+
+$color-purple-dark: indigo
+$color-purple-reg: #AA64A9
+$color-purple-light: orchid
+
+
+// Metro section colors
+$color-news: $color-blue-reg
+$color-sport: $color-red-reg
+$color-entertainment: $color-purple-reg
+$color-lifestyle: $color-purple-reg
+$color-business: #ED9706
+$color-video: $color-green-reg
+$color-classifieds: #b0005f
+$color-opinion: #19acf0
+$color-real-estate: #ca0a00
+
+
+// Neutral tints
+$color-white: #ffffff
+$color-grey-1: #f1f1f1
+$color-grey-2: #e2e2e2
+$color-grey-3: #c9c9c9
+$color-grey-4: #929292
+$color-grey-5: #797979
+$color-grey-6: #5f5f5f
+$color-grey-7: #4a4a4a
+$color-grey-8: #3a3a3a
+$color-grey-9: #2a2a2a
+$color-grey-10: #0e0e0e
+$color-black: #000000
+
+// Colored neutrals
+$color-bluegrey-1: #dfe6ec
+
+
+/* Gradients */
+@function gradient-strong($color, $direction)
+	@return linear-gradient(to $direction, rgba($color, 0), rgba($color, 1))
+
+@function gradient-medium($color, $direction)
+	@return linear-gradient(to $direction, rgba($color, 0), rgba($color, 0.7))
+
+@function gradient-light($color, $direction)
+	@return linear-gradient(to $direction, rgba($color, 0), rgba($color, 0.4))

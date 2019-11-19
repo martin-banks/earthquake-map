@@ -1,0 +1,31 @@
+@import ../defaults
+@import ../colors
+
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300i,700i")
+
+/* Base setup for for Merriweather font */
+=merriweather-common
+	+reset
+	font-family: 'Merriweather', 'Georgia', serif
+	color: $color-black
+
+=merriweather-light
+	+merriweather-common
+	font-family: 'Merriweather', serif
+  font-style: normal
+  font-weight: 300 
+
+=merriweather-light-italic
+	+merriweather-common
+	font-style: italic
+	font-weight: 300
+
+=merriweather-bold
+	+merriweather-common
+	font-style: italic
+	font-weight: 700
+
+=merriweather-bold-italic
+	+merriweather-common
+	font-style: italic
+	font-weight: 700

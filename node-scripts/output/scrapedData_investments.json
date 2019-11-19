@@ -1,0 +1,21 @@
+{
+  "total": 104,
+  "mostPerPerson": {
+    "count": 16,
+    "person": {
+      "image": "profile",
+      "name": "Mr Dan Cregan",
+      "party": "LIB",
+      "district": "Kavel",
+      "x": "HA",
+      "type": "State",
+      "Income": "UniS (partner)",
+      "Investments": "Super SA, UniSuper (partner), AMP Ltd, Ansell Ltd, ANZ Banking Group Ltd, BHP Billiton Ltd, Bionomics Ltd, Coca Cola Amatil Ltd, Computershare Ltd, NAB Ltd, GBE Insurance Group Ltd, Ramsay Healthcare Ltd, Tabcorp Holdings Ltd, Telstra Corporation Ltd, Woolworths Group Ltd, Woodside Petroleum Ltd. ",
+      "Trusts": "NA",
+      "Interests in land": "Dwelling in Mount Barker, SA 5251",
+      "Directorships": "NA",
+      "Political and Trade and Professional Associations": "Liberal Party of Australia (SA Division), Australian Institute of Company Directors, Law Society of South Australia, Agricultural Bureau of South Australia, Commonwealth Parliamentary Association, Various clubs and organisations within the electorate of Kavel. "
+    }
+  },
+  "key": "Investments"
+}

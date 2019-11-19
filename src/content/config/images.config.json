@@ -1,0 +1,17 @@
+{
+  "children": false,
+  "jsPrefix": "Img",
+  "sizes": {
+    "thumb": 40,
+    "min": 200,
+    "max": 600,
+    "inc": 200
+  },
+  "quality": {
+    "image": 30,
+    "thumb": 30
+  },
+  "thumbBlurLarge": 3,
+  "thumbBlurSmall": 1,
+  "location": "./src/content/images"
+}

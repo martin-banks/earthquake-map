@@ -1,0 +1,143 @@
+{
+  "total": 69,
+  "mostByAssets": [
+    {
+      "income": {
+        "total": 50,
+        "mostPerPerson": {
+          "count": 5,
+          "person": {
+            "image": "profile",
+            "name": "Hon Dan van Holst Pellekaan",
+            "party": "LIB",
+            "district": "Stuart",
+            "x": "HA",
+            "type": "State",
+            "Income": "ASEPS Nursing Agency (spouse), VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust.",
+            "Investments": "Stellar Resources shares, VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust, AMP life insurance policy (spouse as beneficiary), Parliamentary Superannuation Scheme life insurance (spouse as beneficiary), Bank SA, Dan and Rebecca van Holst Pellekaan super fund (self-managed).",
+            "Trusts": "VHP Enterprises P/L as trustee for van Holst Pellekaan Family Trust, Flinders Gulf and Outback (FGO) Pty Ltd as trustee for Dan and Rebecca van Holst Pellekaan Family Trust.",
+            "Interests in land": "Residence in Wilmington SA, property in Wilmington SA, commercial property (3) Port Augusta - one leased to 'Buses R Us' public bus service in Port Augusta and the state, unit at Payneham and rural property in Tasmania.",
+            "Directorships": "VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd.",
+            "Political and Trade and Professional Associations": "Business Port Augusta, Country Fire Service Foundation, Liberal Party of Australia (SA), Rural Media SA, Asbestos Victims Association, SA ICPA Lone Members, Port Augusta RSL sub-branch, Kapunda Business Alliance, Women in Agriculture and Business, Royal Flying Doctor Service."
+          }
+        },
+        "key": "Income"
+      }
+    },
+    {
+      "investments": {
+        "total": 104,
+        "mostPerPerson": {
+          "count": 16,
+          "person": {
+            "image": "profile",
+            "name": "Mr Dan Cregan",
+            "party": "LIB",
+            "district": "Kavel",
+            "x": "HA",
+            "type": "State",
+            "Income": "UniS (partner)",
+            "Investments": "Super SA, UniSuper (partner), AMP Ltd, Ansell Ltd, ANZ Banking Group Ltd, BHP Billiton Ltd, Bionomics Ltd, Coca Cola Amatil Ltd, Computershare Ltd, NAB Ltd, GBE Insurance Group Ltd, Ramsay Healthcare Ltd, Tabcorp Holdings Ltd, Telstra Corporation Ltd, Woolworths Group Ltd, Woodside Petroleum Ltd. ",
+            "Trusts": "NA",
+            "Interests in land": "Dwelling in Mount Barker, SA 5251",
+            "Directorships": "NA",
+            "Political and Trade and Professional Associations": "Liberal Party of Australia (SA Division), Australian Institute of Company Directors, Law Society of South Australia, Agricultural Bureau of South Australia, Commonwealth Parliamentary Association, Various clubs and organisations within the electorate of Kavel. "
+          }
+        },
+        "key": "Investments"
+      }
+    },
+    {
+      "trusts": {
+        "total": 45,
+        "mostPerPerson": {
+          "count": 4,
+          "person": {
+            "image": "profile",
+            "name": "Mr Adrian Pederick",
+            "party": "LIB",
+            "district": "Hammond",
+            "x": "HA",
+            "type": "State",
+            "Income": "Weckert Pty Ltd (farm lease), Department of Education and Child Development (spouse)",
+            "Investments": "AMP, Westpac Banking Corporation.",
+            "Trusts": "Pederick Family Trust, AS Pederick, SA Pederick, Kirriemuir Coomandook.",
+            "Interests in land": "Kirriemuir - Coomandook SA, property at Mount Osmond and Murray Bridge.",
+            "Directorships": "RA & AS Pederick Pty Ltd.",
+            "Political and Trade and Professional Associations": "Liberal Party of Australia (SA)."
+          }
+        },
+        "key": "Trusts"
+      }
+    },
+    {
+      "land": {
+        "total": 89,
+        "mostPerPerson": {
+          "count": 9,
+          "person": {
+            "image": "profile",
+            "name": "Mr Troy Bell",
+            "party": "IND",
+            "district": "Mount Gambier",
+            "x": "HA",
+            "type": "State",
+            "Income": "Limestone Coast Local Government Association (spouse)",
+            "Investments": "Shares - Telstra (self), Shares - TAB (self), Shares - Santos (as part of self-managed superannuation fund (spouse)",
+            "Trusts": "N/A",
+            "Interests in land": "Residence in Mount Gambier, SA, 2 units in Mount Gambier, SA, half share in block of land in Mount Gambier (spouse), SA, property at Glengowrie SA, property at Yarrabilba QLD, shack at Pelican Point.",
+            "Directorships": "Bellistic Pty Ltd (spouse) director.",
+            "Political and Trade and Professional Associations": "Liberal Party of South Australia."
+          }
+        },
+        "key": "Interests in land"
+      }
+    },
+    {
+      "directorships": {
+        "total": 65,
+        "mostPerPerson": {
+          "count": 12,
+          "person": {
+            "image": "profile",
+            "name": "Hon Geoff Brock",
+            "party": "IND",
+            "district": "Frome",
+            "x": "HA",
+            "type": "State",
+            "Income": "Magic Scissors Port Pirie (partner)",
+            "Investments": "OZ Minerals",
+            "Trusts": "N/A",
+            "Interests in land": "Family residence at Port Pirie SA, investment property at Henley Beach SA, home activity at Magic Scissors Port Pirie SA.",
+            "Directorships": "Port Pirie Garden Club (patron), Port Pirie Football League (patron), Port Pirie Softball Association (patron), Laura Music Events (patron), Port Pirie Bowling Club (vice patron), Marrabel Rodeo (vice patron), Clare Valley History Group (member), Port Football and Community Club (No 1 ticket holder), Murray Darling Association (vice chair), Mount Horrocks Historical Society (member), Clare Valley Aero Group (member), North West Agricultural Society (vice president).",
+            "Political and Trade and Professional Associations": "Port Pirie Chamber of Commerce (executive committee)."
+          }
+        },
+        "key": "Directorships"
+      }
+    },
+    {
+      "associations": {
+        "total": 277,
+        "mostPerPerson": {
+          "count": 61,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tony Piccolo",
+            "party": "ALP",
+            "district": "Light",
+            "x": "HA",
+            "type": "State",
+            "Income": "N/A",
+            "Investments": "Medibank Private Shares, Commonwealth Bank.",
+            "Trusts": "Trustee of Children's Trust Accounts",
+            "Interests in land": "Residence at Kudla SA, property at Gawler South SA.",
+            "Directorships": "N/A",
+            "Political and Trade and Professional Associations": "Advantage SA, Animal Welfare League SA, Australian Dispute Resolution Association (ADRA), Australian Institute of Human Resources (AIHR), Australian Labor Party (SA branch), Australian Refugee Association, Australian Society of Certified Practicing Accountants, Australian Fabian Society, Australian Friends of Palestine, Australian Institute of Administrative Law Inc, Blind Sporting Council SA, Brain Injury Network SA, Central Districts Football Club, Comitato Italani Estero (Adelaide), Dante Alighieri Society of SA, Evatt Foundation Inc, Forum of Italo-Australian Parliamentarians, Freemasons Men's Health Centre (board of patrons), Friends of Para Wirra Recreation Park, Friendship Force (patron), Gawler Anti Cancer, Gawler Community Gallery, Gawler Community Services Forum, Gawler Harness Club, Gawler Health Foundation, Gawler and District College Governing Council, Gawler/Barossa Jockey Club, Gawler Centrals Football Club (honorary member), Gawler Swimming Club (vice patron), Gawler Show Society (patron), Gawler Soccer Club (patron), Gawler Town Band (patron), Humane Society, International Association of Public Participation, Industrial Relations Society of SA Inc, Institute of Certified Management Accountants, Institute of Public Administration SA division, John Cain Foundation, John Curtain Research Centre, Lions Club of Gawler, Murray Darling Association, National Trust of SA, Offenders Aid Rehabilitation Service SA, Operation Flinders, Palliative Care SA, Paraquad SA, Pheonix Society Inc, QANTAS Club - Chairman's Lounge, Reconciliation SA, Royal Automobile Association, Royal Geographical Society of SA, SA Men's Health Alliance, SA Parliamentary Christian Fellowship, Safer Communities Australia, Shelter SA, STARplex Swimming Club (patron), The Australia Institute, Transport Workers Union, Velocity Club (Virgin Blue), Victim Support Services SA Inc, Willaston Football Club (honorary member)."
+          }
+        },
+        "key": "Political and Trade and Professional Associations"
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+@import './index.sass'
+
+@function strip-unit($value)
+  @return $value / ($value * 0 + 1)
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size)
+  $u1: unit($min-vw)
+  $u2: unit($max-vw)
+  $u3: unit($min-font-size)
+  $u4: unit($max-font-size)
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4
+    &
+      font-size: $min-font-size
+      @media screen and (min-width: $min-vw)
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}))
+      @media screen and (min-width: $max-vw)
+        font-size: $max-font-size
+
+
+
+$min_width: 320px
+$max_width: 1000px
+$min_font: 16px
+$max_font: 22px
+
+html, body
+  margin: 0
+  padding: 0
+
+// This file applies the default reset styles across the app for default styling consistancy
+
+[data-type=dna-custom-app]
+
+
+article[data-type=dna-custom-app]
+  // max-width: 1000px
+  // margin: 32px auto
+  &[data-theme="light"]
+    background: white
+  @media screen and (min-width: 960px)
+    // padding: 32px 32px
+  &[data-longform]
+    @media screen and (min-width: 960px)
+      // padding: 32px 2.6rem
+  &[data-news]
+    // padding: 32px 0
+  &[data-whimn]
+    // padding: 32px 0
+  .dna-custom-app
+    // padding: 32px 0
+    // border-top: solid 1px $color-grey-2
+    // border-bottom: solid 1px $color-grey-2
+
+  // *:not([class^="leaflet"])
+  *,
+  *:before,
+  *:after
+    position: relative
+    // margin: 0
+    // padding: 0
+    // text-shadow: none
+    box-sizing: border-box
+    text-rendering: optimizeLegibility
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+  div
+    +body-sans-reg
+
+  img
+    display: block
+    width: 100%
+    height: auto
+    margin: $space-1 0
+
+  h1, h2, h3, h4, h5, h6
+    +roboto-cond-bold
+    display: block
+    margin: 0
+    margin-bottom: $space-3
+    text-shadow: none
+    border: none
+    text-align: left
+    text-transform: none
+    letter-spacing: 0
+    max-width: 100%
+    padding: 0
+    color: #333
+  h1
+    font-size: 32px
+    letter-spacing: -1px
+    @media screen and (min-width: $media-desktop)
+      font-size: 40px
+    
+  h2
+    font-size: 24px
+    letter-spacing: -1px
+    @media screen and (min-width: $media-desktop)
+      font-size: 32px
+  h3
+    font-size: 20px
+    line-height: 1.3
+    // @include fluid-type($min_width, $max_width, $min_font, $max_font)
+    @media screen and (min-width: $media-desktop)
+      font-size: 24px
+  h4
+    font-size: 18px
+    margin-bottom: $space-1
+  h5
+    font-size: 16px
+    margin: 0
+  h6
+    font-size: 14px
+    text-transform: uppercase
+    margin-bottom: 4px
+
+  p, ul, li
+    +body-sans-reg
+    margin: 0
+    margin-bottom: 16px
+    font-size: 15px
+    line-height: 1.5
+    &:last-of-type
+      margin-bottom: 0
+  span
+    +body-sans-reg
+
+  button
+    font-size: 14px
+    padding: 16px
+    border: solid 1px $color-grey-3
+    border-radius: 4px
+    cursor: pointer
+    &:focus
+      outline: none
+
+  form
+    +body-sans-reg
+  label
+    +body-sans-reg
+    font-weight: 600
+    display: block
+    line-height: 1.4 !important
+
+  pre
+    &.dump
+      background: #333333
+      color: #bada55
+      margin-bottom: 24px
+      padding: 16px
+      text-shadow: none
+      border-radius: 4px
+      font-size: 14px
+      overflow: scroll
+
+  [class*="sans__reg"]
+    +body-sans-reg
+
+  .sans
+    &__reg
+      +body-sans-reg
+      &--italic
+        font-style: italic
+
+  a
+    +body-sans-reg
+
+
+  hr
+    border: solid 0.5px rgba(black, 0.1)
+    background: none
+    margin: 16px 0

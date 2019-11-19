@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="__helpers.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body onload="page.init();page.displayChanged(true);">
+	<div class="nnd-container">
+		<!-- All elements should be inside nnd-container -->
+            <div class="nnd-shootings-tooltip" id="nnd_shootings_tooltip"></div>
+            <div class="nnd-text-cont-1"><h1>American Mass <span class="nnd-break-on-mobile"></span>Shootings <em>2018</em></h1>Gun violence kills around 15,000 Americans every year (not including suicides) and leaves another 30,000 wounded. <span class="nnd-break-on-mobile"></span>This visualisation show mass shootings - incidents where four or more people have been shot in one, not including the shooter. <span class="nnd-break-on-mobile"></span>Mass shootings account for only a small proportion of total fatalities, but but the numbers are staggering.<!--<span class="nnd-disclaimer">*Not including average 22,000 suicides</span>--><br><br><span class="nnd-scrolldowntxt">Scroll down to see  how the <span class="nnd-break-on-mobile"></span>figures break down<img src="assets/downarrow.svg"></span></div>
+            <div class="nnd-text-cont-2">In this visualisation red dots represent deaths from mass shootings<!-- (four or more fatalities)-->.<br>The blue dots are the numbers of wounded in mass shootings so far this year.<br><br><span class="nnd-deviceshowhide nnd-device-desktop">Roll over the dots to see incidents by type</span><span class="nnd-deviceshowhide nnd-device-mobile">Tap on the dots to see incidents by type</span></div>
+            <div class="nnd-text-cont-3">Here incidents are broken down by state.<br>Mass shootings have occurred in <span class="nnd-totalstates"></span> states in 2018.<!--Mass shootings have occurred in 38 states so far in 2017.--><br><br><span class="nnd-deviceshowhide nnd-device-desktop">Roll over the dots to see incidents by city</span><span class="nnd-deviceshowhide nnd-device-mobile">Tap on the dots to see incidents by city</span></div>
+          <div id="main" role="main">
+            <div id="view_selection" class="btn-group">
+              <a href="#" id="all" class="btn active">All Incidents</a>
+              <a href="#" id="incidenttype" class="btn">Incidents by Killed/Injured</a>
+              <a href="#" id="states" class="btn">Incidents by States</a>
+              <!-- <a href="#" id="level" class="btn">Levels</a> -->
+            </div>
+            <div id="vis"></div>
+          </div>
+        </div> <!--! end of #container -->
+	</div><!-- end .nnd-container --> 
+</body> 
+</html> 

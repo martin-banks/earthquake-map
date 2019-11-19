@@ -1,0 +1,143 @@
+{
+  "total": 22,
+  "mostByAssets": [
+    {
+      "income": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        },
+        "key": "Income"
+      }
+    },
+    {
+      "investments": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        },
+        "key": "Investments"
+      }
+    },
+    {
+      "trusts": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        },
+        "key": "Trusts"
+      }
+    },
+    {
+      "land": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        },
+        "key": "Interests in land"
+      }
+    },
+    {
+      "directorships": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        },
+        "key": "Directorships"
+      }
+    },
+    {
+      "associations": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        },
+        "key": "Political and Trade and Professional Associations"
+      }
+    }
+  ]
+}

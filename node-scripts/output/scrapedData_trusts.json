@@ -1,0 +1,21 @@
+{
+  "total": 45,
+  "mostPerPerson": {
+    "count": 4,
+    "person": {
+      "image": "profile",
+      "name": "Mr Adrian Pederick",
+      "party": "LIB",
+      "district": "Hammond",
+      "x": "HA",
+      "type": "State",
+      "Income": "Weckert Pty Ltd (farm lease), Department of Education and Child Development (spouse)",
+      "Investments": "AMP, Westpac Banking Corporation.",
+      "Trusts": "Pederick Family Trust, AS Pederick, SA Pederick, Kirriemuir Coomandook.",
+      "Interests in land": "Kirriemuir - Coomandook SA, property at Mount Osmond and Murray Bridge.",
+      "Directorships": "RA & AS Pederick Pty Ltd.",
+      "Political and Trade and Professional Associations": "Liberal Party of Australia (SA)."
+    }
+  },
+  "key": "Trusts"
+}

@@ -1,0 +1,33 @@
+@import ../defaults
+@import ../colors
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,900,400i,900i")
+
+/* Base setup for for Playfair font */
+=playfair-common
+	+reset
+	color: $color-black
+	line-height: 0.9
+	letter-spacing: -1px
+	font-family: 'Playfair Display', sans-serif
+
+=playfair-light
+	+playfair-common
+	font-style: normal
+	font-weight: 400
+
+=playfair-light-italic
+	+playfair-common
+	font-weight: 400
+	font-style: italic
+
+=playfair-bold
+	+playfair-common
+	font-weight: 900
+	font-style: normal
+
+=playfair-bold-italic
+	+playfair-common
+	font-weight: 700
+	font-style: italic
+	

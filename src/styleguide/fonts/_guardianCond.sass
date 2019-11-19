@@ -1,0 +1,18 @@
+@import ../defaults
+@import ../colors
+
+/* Base setup for for Guardian Condensed font */
+=guardianCond-common
+	+reset
+	font-family: 'Guardian Sans Cond', 'Guardian Sans', 'Helvetica', sans-serif
+	color: $color-black
+
+=guardianCond-bold
+	+guardianCond-common
+	font-style: normal
+	font-weight: 700
+
+=guardianCond-bold-italic
+	+guardianCond-common
+	font-style: italic
+	font-weight: 700

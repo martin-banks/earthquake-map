@@ -1,0 +1,102 @@
+
+// FLUID TYPE SIZING
+// Used in place of breakpoints for hard value changes, fluid type sizing
+// allows for text to scale smoothly and present with high consistency
+
+// READ MORE
+// https://www.smashingmagazine.com/2016/05/fluid-typography/
+
+$screen-min: 300//px
+$screen-max: 1000//px
+
+$lineHeight-body: 1.5
+
+// calc( 72px + (24 - 12) * ( (100vw - 300px) / ( 1200 - 300) )) !important
+// calc( 16px + ((16 - 16) * ( 100vw - 300px / 1000 - 300 ) ))
+@function fluidSize($min, $max)
+  @return calc(#{$min}px + ((#{$max} - #{$min}) * ((100vw - #{$screen-min}px) / (#{$screen-max} - #{$screen-min}))))
+
+@function bodyLineHeight($size)
+  @return $size * $lineHeight-body
+
+
+
+
+// NEW VERSION
+// need to replace old version in use before removal
+$displayIncrement: 8 // px
+
+@function fluidSize_new($min)
+  @return calc(#{$min}px + ((#{$min * 1.5} - #{$min}) * ((100vw - #{$screen-min}px) / (#{$screen-max} - #{$screen-min}))))
+  
+=fluidtype-common
+  line-height: 1.2 !important
+  letter-spacing: 0 !important
+
+=fluidtype-1
+  +fluidtype-common
+  $size: $displayIncrement * 1.4
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+  line-height: 1.4 !important
+
+=fluidtype-1-5
+  +fluidtype-common
+  $size: $displayIncrement * 1.5
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-2
+  +fluidtype-common
+  $size: $displayIncrement * 2
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-3
+  +fluidtype-common
+  $size: $displayIncrement * 3
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-4
+  +fluidtype-common
+  $size: $displayIncrement * 4
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-5
+  +fluidtype-common
+  $size: $displayIncrement * 5
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-6
+  +fluidtype-common
+  $size: $displayIncrement * 6
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-7
+  +fluidtype-common
+  $size: $displayIncrement * 7
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-8
+  +fluidtype-common
+  $size: $displayIncrement * 8
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-9
+  +fluidtype-common
+  $size: $displayIncrement * 9
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+
+=fluidtype-10
+  +fluidtype-common
+  $size: $displayIncrement * 10
+  font-size: $size * 1px !important
+  font-size: fluidSize_new($size) !important
+  

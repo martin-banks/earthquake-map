@@ -1,0 +1,987 @@
+{
+  "state": 69,
+  "federal": 22,
+  "parties": {
+    "LIB": {
+      "members": 42,
+      "income": {
+        "total": 16,
+        "mostPerPerson": {
+          "count": 5,
+          "person": {
+            "image": "profile",
+            "name": "Hon Dan van Holst Pellekaan",
+            "party": "LIB",
+            "district": "Stuart",
+            "x": "HA",
+            "type": "State",
+            "Income": "ASEPS Nursing Agency (spouse), VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust.",
+            "Investments": "Stellar Resources shares, VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust, AMP life insurance policy (spouse as beneficiary), Parliamentary Superannuation Scheme life insurance (spouse as beneficiary), Bank SA, Dan and Rebecca van Holst Pellekaan super fund (self-managed).",
+            "Trusts": "VHP Enterprises P/L as trustee for van Holst Pellekaan Family Trust, Flinders Gulf and Outback (FGO) Pty Ltd as trustee for Dan and Rebecca van Holst Pellekaan Family Trust.",
+            "Interests in land": "Residence in Wilmington SA, property in Wilmington SA, commercial property (3) Port Augusta - one leased to 'Buses R Us' public bus service in Port Augusta and the state, unit at Payneham and rural property in Tasmania.",
+            "Directorships": "VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd.",
+            "Political and Trade and Professional Associations": "Business Port Augusta, Country Fire Service Foundation, Liberal Party of Australia (SA), Rural Media SA, Asbestos Victims Association, SA ICPA Lone Members, Port Augusta RSL sub-branch, Kapunda Business Alliance, Women in Agriculture and Business, Royal Flying Doctor Service."
+          }
+        }
+      },
+      "investments": {
+        "total": 57,
+        "mostPerPerson": {
+          "count": 16,
+          "person": {
+            "image": "profile",
+            "name": "Mr Dan Cregan",
+            "party": "LIB",
+            "district": "Kavel",
+            "x": "HA",
+            "type": "State",
+            "Income": "UniS (partner)",
+            "Investments": "Super SA, UniSuper (partner), AMP Ltd, Ansell Ltd, ANZ Banking Group Ltd, BHP Billiton Ltd, Bionomics Ltd, Coca Cola Amatil Ltd, Computershare Ltd, NAB Ltd, GBE Insurance Group Ltd, Ramsay Healthcare Ltd, Tabcorp Holdings Ltd, Telstra Corporation Ltd, Woolworths Group Ltd, Woodside Petroleum Ltd. ",
+            "Trusts": "NA",
+            "Interests in land": "Dwelling in Mount Barker, SA 5251",
+            "Directorships": "NA",
+            "Political and Trade and Professional Associations": "Liberal Party of Australia (SA Division), Australian Institute of Company Directors, Law Society of South Australia, Agricultural Bureau of South Australia, Commonwealth Parliamentary Association, Various clubs and organisations within the electorate of Kavel. "
+          }
+        }
+      },
+      "trusts": {
+        "total": 17,
+        "mostPerPerson": {
+          "count": 4,
+          "person": {
+            "image": "profile",
+            "name": "Mr Adrian Pederick",
+            "party": "LIB",
+            "district": "Hammond",
+            "x": "HA",
+            "type": "State",
+            "Income": "Weckert Pty Ltd (farm lease), Department of Education and Child Development (spouse)",
+            "Investments": "AMP, Westpac Banking Corporation.",
+            "Trusts": "Pederick Family Trust, AS Pederick, SA Pederick, Kirriemuir Coomandook.",
+            "Interests in land": "Kirriemuir - Coomandook SA, property at Mount Osmond and Murray Bridge.",
+            "Directorships": "RA & AS Pederick Pty Ltd.",
+            "Political and Trade and Professional Associations": "Liberal Party of Australia (SA)."
+          }
+        }
+      },
+      "land": {
+        "total": 44,
+        "mostPerPerson": {
+          "count": 7,
+          "person": {
+            "image": "profile",
+            "name": "Hon David Speirs",
+            "party": "LIB",
+            "district": "Black",
+            "x": "HA",
+            "type": "State",
+            "Income": "N/A",
+            "Investments": "South 32 Ltd, Rio Tinto Ltd, Oil Search Ltd, Aurizon Holdings Ltd, QBE Insurance Group Ltd, Macquarie Group Ltd, Iluka Resources Ltd, Collection House Ltd, Australian Foundation Investment Company Ltd, Crown Resorts Ltd.",
+            "Trusts": "N/A",
+            "Interests in land": "Residence at Kingston Park SA, investment properties at Kingston Park (2), Glenelg East, Oaklands Park, Mitcham, Christies Beach (2), Inman Valley (primary production).",
+            "Directorships": "N/A",
+            "Political and Trade and Professional Associations": "Liberal Party of Australia (SA), various clubs and organisations with the Electorate of Bright."
+          }
+        }
+      },
+      "directorships": {
+        "total": 13,
+        "mostPerPerson": {
+          "count": 2,
+          "person": {
+            "image": "profile",
+            "name": "Mr Matt Cowdrey OAM",
+            "party": "LIB",
+            "district": "Colton",
+            "x": "HA",
+            "type": "State",
+            "Income": "Government of South Australia (Spouse)",
+            "Investments": "ANZ (Joint)",
+            "Trusts": "NA",
+            "Interests in land": "Property at Lockleys 5032",
+            "Directorships": "Board Member - Variety the Children's Charity South Australia, Advisory Board Member - Prostate Cancer Foundation of Australia (South Australia Committee).",
+            "Political and Trade and Professional Associations": "Liberal Party of Australia (SA Division), various sports and community organisations."
+          }
+        }
+      },
+      "associations": {
+        "total": 91,
+        "mostPerPerson": {
+          "count": 32,
+          "person": {
+            "image": "profile",
+            "name": "Mr Sam Duluk",
+            "party": "LIB",
+            "district": "Waite",
+            "x": "HA",
+            "type": "State",
+            "Income": "N/A",
+            "Investments": "Superannuation; Parliamentary Superannuation Scheme, Pultusk Superannuation Fund, Personal Desposits & Savings: ANZ Banking Group Ltd, Commonwealth Bank of Australia Ltd. ANZ Banking Group Ltd - Shares",
+            "Trusts": "N/A",
+            "Interests in land": "Land at Marryatville, SA (half-share).",
+            "Directorships": "Pultusk Nominees Pty Ltd.",
+            "Political and Trade and Professional Associations": "Aberfoyle & Districts Lion Club, Adelaide Crows Football Club (member), Adelaide University Football Club, Bedford Park Residents Association, Blackwood Action Group, Blackwood Business Network, Blackwood Community Recreation Association Inc (committee member), Blackwood Football Club Inc, Blackwood High School Council Inc (governing council), Blackwood Memorial Hall Inc, Blackwood Rotary Club (honorary member), Blackwood/Belair and District Association Inc, Commonwealth Parliamentary Association (member), CPA Australia (member), Davenport Branch of Liberal Party of Australia (SA Division), Dom Polski Society Co-Operative Ltd, Flagstaff Hill Football Club, Flinders University Liberal Club (patron), Flinders University Soccer Club (patron), Friends of Belair National Park, Friends of Blackwood Forrest, Friends of Carrick Hill, Liberal Party of Australia SA Division, National Trust of SA - Coromandel Valley Branch, Neighbourhood Watch Aberfoyle Park and Happy Valley - area #491, Polish Youth Association, RAA (member), Returned & Services League, Blackwood & District sub-branch Inc (patron), South Australian Cricket Association (member), The Hills Choral Society (patron), Thoroughbred Racing SA."
+          }
+        }
+      }
+    },
+    "IND": {
+      "members": 5,
+      "income": {
+        "total": 2,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Ms Frances Bedford",
+            "party": "IND",
+            "district": "Florey",
+            "x": "HA",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "investments": {
+        "total": 4,
+        "mostPerPerson": {
+          "count": 3,
+          "person": {
+            "image": "profile",
+            "name": "Mr Troy Bell",
+            "party": "IND",
+            "district": "Mount Gambier",
+            "x": "HA",
+            "type": "State",
+            "Income": "Limestone Coast Local Government Association (spouse)",
+            "Investments": "Shares - Telstra (self), Shares - TAB (self), Shares - Santos (as part of self-managed superannuation fund (spouse)",
+            "Trusts": "N/A",
+            "Interests in land": "Residence in Mount Gambier, SA, 2 units in Mount Gambier, SA, half share in block of land in Mount Gambier (spouse), SA, property at Glengowrie SA, property at Yarrabilba QLD, shack at Pelican Point.",
+            "Directorships": "Bellistic Pty Ltd (spouse) director.",
+            "Political and Trade and Professional Associations": "Liberal Party of South Australia."
+          }
+        }
+      },
+      "trusts": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Ms Frances Bedford",
+            "party": "IND",
+            "district": "Florey",
+            "x": "HA",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "land": {
+        "total": 12,
+        "mostPerPerson": {
+          "count": 9,
+          "person": {
+            "image": "profile",
+            "name": "Mr Troy Bell",
+            "party": "IND",
+            "district": "Mount Gambier",
+            "x": "HA",
+            "type": "State",
+            "Income": "Limestone Coast Local Government Association (spouse)",
+            "Investments": "Shares - Telstra (self), Shares - TAB (self), Shares - Santos (as part of self-managed superannuation fund (spouse)",
+            "Trusts": "N/A",
+            "Interests in land": "Residence in Mount Gambier, SA, 2 units in Mount Gambier, SA, half share in block of land in Mount Gambier (spouse), SA, property at Glengowrie SA, property at Yarrabilba QLD, shack at Pelican Point.",
+            "Directorships": "Bellistic Pty Ltd (spouse) director.",
+            "Political and Trade and Professional Associations": "Liberal Party of South Australia."
+          }
+        }
+      },
+      "directorships": {
+        "total": 13,
+        "mostPerPerson": {
+          "count": 12,
+          "person": {
+            "image": "profile",
+            "name": "Hon Geoff Brock",
+            "party": "IND",
+            "district": "Frome",
+            "x": "HA",
+            "type": "State",
+            "Income": "Magic Scissors Port Pirie (partner)",
+            "Investments": "OZ Minerals",
+            "Trusts": "N/A",
+            "Interests in land": "Family residence at Port Pirie SA, investment property at Henley Beach SA, home activity at Magic Scissors Port Pirie SA.",
+            "Directorships": "Port Pirie Garden Club (patron), Port Pirie Football League (patron), Port Pirie Softball Association (patron), Laura Music Events (patron), Port Pirie Bowling Club (vice patron), Marrabel Rodeo (vice patron), Clare Valley History Group (member), Port Football and Community Club (No 1 ticket holder), Murray Darling Association (vice chair), Mount Horrocks Historical Society (member), Clare Valley Aero Group (member), North West Agricultural Society (vice president).",
+            "Political and Trade and Professional Associations": "Port Pirie Chamber of Commerce (executive committee)."
+          }
+        }
+      },
+      "associations": {
+        "total": 2,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Ms Frances Bedford",
+            "party": "IND",
+            "district": "Florey",
+            "x": "HA",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      }
+    },
+    "ALP": {
+      "members": 35,
+      "income": {
+        "total": 19,
+        "mostPerPerson": {
+          "count": 3,
+          "person": {
+            "image": "profile",
+            "name": "Mr Blair Boyer",
+            "party": "ALP",
+            "district": "Wright",
+            "x": "HA",
+            "type": "State",
+            "Income": "Department of Human Services (Spouse), Rental income from property in Parkside, SA.",
+            "Investments": "NA",
+            "Trusts": "NA",
+            "Interests in land": "Property in Parkside, SA",
+            "Directorships": "NA",
+            "Political and Trade and Professional Associations": "Australian Labor Party (SA Division), Australian Services Union (ASU), Progressive Labour Unions and Sub-Branches (PLUS), Salisbury RSL, Australian Republican Movement (ARM)"
+          }
+        }
+      },
+      "investments": {
+        "total": 33,
+        "mostPerPerson": {
+          "count": 7,
+          "person": {
+            "image": "profile",
+            "name": "Hon Zoe Bettison",
+            "party": "ALP",
+            "district": "Ramsay",
+            "x": "HA",
+            "type": "State",
+            "Income": "Commonwealth Government, Bluelink (partner)",
+            "Investments": "Macquarie Cash Management Trust, Colonial First State Choice, BT SuperWrap, ANZ Bank, Homeloans Ltd, Statewide Super Parliamentary Super Scheme, Comminsure.",
+            "Trusts": "N/A",
+            "Interests in land": "Vol 5234, Folio 116 Renown Park SA, Vol 6130, Folio 694 Salisbury SA.",
+            "Directorships": "N/A",
+            "Political and Trade and Professional Associations": "Australian Labor Party (SA), Shop, Distributive and Allied Employees' Association (SDA), Salisbury Rotary Club (honorary), Salisbury RSL, Muriel Matters Society."
+          }
+        }
+      },
+      "trusts": {
+        "total": 4,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Zoe Bettison",
+            "party": "ALP",
+            "district": "Ramsay",
+            "x": "HA",
+            "type": "State",
+            "Income": "Commonwealth Government, Bluelink (partner)",
+            "Investments": "Macquarie Cash Management Trust, Colonial First State Choice, BT SuperWrap, ANZ Bank, Homeloans Ltd, Statewide Super Parliamentary Super Scheme, Comminsure.",
+            "Trusts": "N/A",
+            "Interests in land": "Vol 5234, Folio 116 Renown Park SA, Vol 6130, Folio 694 Salisbury SA.",
+            "Directorships": "N/A",
+            "Political and Trade and Professional Associations": "Australian Labor Party (SA), Shop, Distributive and Allied Employees' Association (SDA), Salisbury Rotary Club (honorary), Salisbury RSL, Muriel Matters Society."
+          }
+        }
+      },
+      "land": {
+        "total": 33,
+        "mostPerPerson": {
+          "count": 4,
+          "person": {
+            "image": "profile",
+            "name": "Hon Zoe Bettison",
+            "party": "ALP",
+            "district": "Ramsay",
+            "x": "HA",
+            "type": "State",
+            "Income": "Commonwealth Government, Bluelink (partner)",
+            "Investments": "Macquarie Cash Management Trust, Colonial First State Choice, BT SuperWrap, ANZ Bank, Homeloans Ltd, Statewide Super Parliamentary Super Scheme, Comminsure.",
+            "Trusts": "N/A",
+            "Interests in land": "Vol 5234, Folio 116 Renown Park SA, Vol 6130, Folio 694 Salisbury SA.",
+            "Directorships": "N/A",
+            "Political and Trade and Professional Associations": "Australian Labor Party (SA), Shop, Distributive and Allied Employees' Association (SDA), Salisbury Rotary Club (honorary), Salisbury RSL, Muriel Matters Society."
+          }
+        }
+      },
+      "directorships": {
+        "total": 20,
+        "mostPerPerson": {
+          "count": 6,
+          "person": {
+            "image": "profile",
+            "name": "Hon Stephen Mullighan",
+            "party": "ALP",
+            "district": "Lee",
+            "x": "HA",
+            "type": "State",
+            "Income": "Delliotte Touche Tohmatsu (spouse).",
+            "Investments": "ARGO Investments Ltd, AMP.",
+            "Trusts": "N/A",
+            "Interests in land": "Property at Largs Bay and Magill, 50% share of property at Prospect.",
+            "Directorships": "Port Adelaide Football Club (member), Port Districts Football Club (member), SA Cricket Association (member), Port Adelaide Districts Hockey Club (vice-patron), Australian Institute of Traffic Planning and Management (patron), Austin7 Club of SA (patron).",
+            "Political and Trade and Professional Associations": "Australian Labor Party (SA division), Finance Sector Union (FSU)."
+          }
+        }
+      },
+      "associations": {
+        "total": 183,
+        "mostPerPerson": {
+          "count": 61,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tony Piccolo",
+            "party": "ALP",
+            "district": "Light",
+            "x": "HA",
+            "type": "State",
+            "Income": "N/A",
+            "Investments": "Medibank Private Shares, Commonwealth Bank.",
+            "Trusts": "Trustee of Children's Trust Accounts",
+            "Interests in land": "Residence at Kudla SA, property at Gawler South SA.",
+            "Directorships": "N/A",
+            "Political and Trade and Professional Associations": "Advantage SA, Animal Welfare League SA, Australian Dispute Resolution Association (ADRA), Australian Institute of Human Resources (AIHR), Australian Labor Party (SA branch), Australian Refugee Association, Australian Society of Certified Practicing Accountants, Australian Fabian Society, Australian Friends of Palestine, Australian Institute of Administrative Law Inc, Blind Sporting Council SA, Brain Injury Network SA, Central Districts Football Club, Comitato Italani Estero (Adelaide), Dante Alighieri Society of SA, Evatt Foundation Inc, Forum of Italo-Australian Parliamentarians, Freemasons Men's Health Centre (board of patrons), Friends of Para Wirra Recreation Park, Friendship Force (patron), Gawler Anti Cancer, Gawler Community Gallery, Gawler Community Services Forum, Gawler Harness Club, Gawler Health Foundation, Gawler and District College Governing Council, Gawler/Barossa Jockey Club, Gawler Centrals Football Club (honorary member), Gawler Swimming Club (vice patron), Gawler Show Society (patron), Gawler Soccer Club (patron), Gawler Town Band (patron), Humane Society, International Association of Public Participation, Industrial Relations Society of SA Inc, Institute of Certified Management Accountants, Institute of Public Administration SA division, John Cain Foundation, John Curtain Research Centre, Lions Club of Gawler, Murray Darling Association, National Trust of SA, Offenders Aid Rehabilitation Service SA, Operation Flinders, Palliative Care SA, Paraquad SA, Pheonix Society Inc, QANTAS Club - Chairman's Lounge, Reconciliation SA, Royal Automobile Association, Royal Geographical Society of SA, SA Men's Health Alliance, SA Parliamentary Christian Fellowship, Safer Communities Australia, Shelter SA, STARplex Swimming Club (patron), The Australia Institute, Transport Workers Union, Velocity Club (Virgin Blue), Victim Support Services SA Inc, Willaston Football Club (honorary member)."
+          }
+        }
+      }
+    },
+    "SAB": {
+      "members": 2,
+      "income": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Connie Bonaros",
+            "party": "SAB",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "investments": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Connie Bonaros",
+            "party": "SAB",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "trusts": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Connie Bonaros",
+            "party": "SAB",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "land": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Connie Bonaros",
+            "party": "SAB",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "directorships": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Connie Bonaros",
+            "party": "SAB",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "associations": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Connie Bonaros",
+            "party": "SAB",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      }
+    },
+    "GSA": {
+      "members": 3,
+      "income": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tammy Franks",
+            "party": "GSA",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "investments": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tammy Franks",
+            "party": "GSA",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "trusts": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tammy Franks",
+            "party": "GSA",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "land": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tammy Franks",
+            "party": "GSA",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "directorships": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tammy Franks",
+            "party": "GSA",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "associations": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Hon Tammy Franks",
+            "party": "GSA",
+            "district": "South Australia",
+            "x": "LC",
+            "type": "State",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      }
+    },
+    "ACP": {
+      "members": 1,
+      "income": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "investments": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "trusts": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "land": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "directorships": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "associations": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Cory Bernardi",
+            "party": "ACP",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      }
+    },
+    "CA": {
+      "members": 3,
+      "income": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Stirling Griff",
+            "party": "CA",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "investments": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Stirling Griff",
+            "party": "CA",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "trusts": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Stirling Griff",
+            "party": "CA",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "land": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Stirling Griff",
+            "party": "CA",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "directorships": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Stirling Griff",
+            "party": "CA",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      },
+      "associations": {
+        "total": 0,
+        "mostPerPerson": {
+          "count": 1,
+          "person": {
+            "image": "profile",
+            "name": "Senator Stirling Griff",
+            "party": "CA",
+            "district": "South Australia",
+            "x": "",
+            "type": "Federal",
+            "Income": "",
+            "Investments": "",
+            "Trusts": "",
+            "Interests in land": "",
+            "Directorships": "",
+            "Political and Trade and Professional Associations": ""
+          }
+        }
+      }
+    }
+  },
+  "income": {
+    "total": 37,
+    "mostPerPerson": {
+      "count": 5,
+      "person": {
+        "image": "profile",
+        "name": "Hon Dan van Holst Pellekaan",
+        "party": "LIB",
+        "district": "Stuart",
+        "x": "HA",
+        "type": "State",
+        "Income": "ASEPS Nursing Agency (spouse), VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust.",
+        "Investments": "Stellar Resources shares, VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd, van Holst Pellekaan Family Trust, Dan and Rebecca van Holst Pellekaan Family Trust, AMP life insurance policy (spouse as beneficiary), Parliamentary Superannuation Scheme life insurance (spouse as beneficiary), Bank SA, Dan and Rebecca van Holst Pellekaan super fund (self-managed).",
+        "Trusts": "VHP Enterprises P/L as trustee for van Holst Pellekaan Family Trust, Flinders Gulf and Outback (FGO) Pty Ltd as trustee for Dan and Rebecca van Holst Pellekaan Family Trust.",
+        "Interests in land": "Residence in Wilmington SA, property in Wilmington SA, commercial property (3) Port Augusta - one leased to 'Buses R Us' public bus service in Port Augusta and the state, unit at Payneham and rural property in Tasmania.",
+        "Directorships": "VHP Enterprises Pty Ltd, Flinders Gulf and Outback (FGO) Pty Ltd.",
+        "Political and Trade and Professional Associations": "Business Port Augusta, Country Fire Service Foundation, Liberal Party of Australia (SA), Rural Media SA, Asbestos Victims Association, SA ICPA Lone Members, Port Augusta RSL sub-branch, Kapunda Business Alliance, Women in Agriculture and Business, Royal Flying Doctor Service."
+      }
+    }
+  },
+  "associations": {
+    "total": 276,
+    "mostPerPerson": {
+      "count": 61,
+      "person": {
+        "image": "profile",
+        "name": "Hon Tony Piccolo",
+        "party": "ALP",
+        "district": "Light",
+        "x": "HA",
+        "type": "State",
+        "Income": "N/A",
+        "Investments": "Medibank Private Shares, Commonwealth Bank.",
+        "Trusts": "Trustee of Children's Trust Accounts",
+        "Interests in land": "Residence at Kudla SA, property at Gawler South SA.",
+        "Directorships": "N/A",
+        "Political and Trade and Professional Associations": "Advantage SA, Animal Welfare League SA, Australian Dispute Resolution Association (ADRA), Australian Institute of Human Resources (AIHR), Australian Labor Party (SA branch), Australian Refugee Association, Australian Society of Certified Practicing Accountants, Australian Fabian Society, Australian Friends of Palestine, Australian Institute of Administrative Law Inc, Blind Sporting Council SA, Brain Injury Network SA, Central Districts Football Club, Comitato Italani Estero (Adelaide), Dante Alighieri Society of SA, Evatt Foundation Inc, Forum of Italo-Australian Parliamentarians, Freemasons Men's Health Centre (board of patrons), Friends of Para Wirra Recreation Park, Friendship Force (patron), Gawler Anti Cancer, Gawler Community Gallery, Gawler Community Services Forum, Gawler Harness Club, Gawler Health Foundation, Gawler and District College Governing Council, Gawler/Barossa Jockey Club, Gawler Centrals Football Club (honorary member), Gawler Swimming Club (vice patron), Gawler Show Society (patron), Gawler Soccer Club (patron), Gawler Town Band (patron), Humane Society, International Association of Public Participation, Industrial Relations Society of SA Inc, Institute of Certified Management Accountants, Institute of Public Administration SA division, John Cain Foundation, John Curtain Research Centre, Lions Club of Gawler, Murray Darling Association, National Trust of SA, Offenders Aid Rehabilitation Service SA, Operation Flinders, Palliative Care SA, Paraquad SA, Pheonix Society Inc, QANTAS Club - Chairman's Lounge, Reconciliation SA, Royal Automobile Association, Royal Geographical Society of SA, SA Men's Health Alliance, SA Parliamentary Christian Fellowship, Safer Communities Australia, Shelter SA, STARplex Swimming Club (patron), The Australia Institute, Transport Workers Union, Velocity Club (Virgin Blue), Victim Support Services SA Inc, Willaston Football Club (honorary member)."
+      }
+    }
+  },
+  "directorships": {
+    "total": 46,
+    "mostPerPerson": {
+      "count": 12,
+      "person": {
+        "image": "profile",
+        "name": "Hon Geoff Brock",
+        "party": "IND",
+        "district": "Frome",
+        "x": "HA",
+        "type": "State",
+        "Income": "Magic Scissors Port Pirie (partner)",
+        "Investments": "OZ Minerals",
+        "Trusts": "N/A",
+        "Interests in land": "Family residence at Port Pirie SA, investment property at Henley Beach SA, home activity at Magic Scissors Port Pirie SA.",
+        "Directorships": "Port Pirie Garden Club (patron), Port Pirie Football League (patron), Port Pirie Softball Association (patron), Laura Music Events (patron), Port Pirie Bowling Club (vice patron), Marrabel Rodeo (vice patron), Clare Valley History Group (member), Port Football and Community Club (No 1 ticket holder), Murray Darling Association (vice chair), Mount Horrocks Historical Society (member), Clare Valley Aero Group (member), North West Agricultural Society (vice president).",
+        "Political and Trade and Professional Associations": "Port Pirie Chamber of Commerce (executive committee)."
+      }
+    }
+  },
+  "trusts": {
+    "total": 21,
+    "mostPerPerson": {
+      "count": 4,
+      "person": {
+        "image": "profile",
+        "name": "Mr Adrian Pederick",
+        "party": "LIB",
+        "district": "Hammond",
+        "x": "HA",
+        "type": "State",
+        "Income": "Weckert Pty Ltd (farm lease), Department of Education and Child Development (spouse)",
+        "Investments": "AMP, Westpac Banking Corporation.",
+        "Trusts": "Pederick Family Trust, AS Pederick, SA Pederick, Kirriemuir Coomandook.",
+        "Interests in land": "Kirriemuir - Coomandook SA, property at Mount Osmond and Murray Bridge.",
+        "Directorships": "RA & AS Pederick Pty Ltd.",
+        "Political and Trade and Professional Associations": "Liberal Party of Australia (SA)."
+      }
+    }
+  },
+  "investments": {
+    "total": 94,
+    "mostPerPerson": {
+      "count": 16,
+      "person": {
+        "image": "profile",
+        "name": "Mr Dan Cregan",
+        "party": "LIB",
+        "district": "Kavel",
+        "x": "HA",
+        "type": "State",
+        "Income": "UniS (partner)",
+        "Investments": "Super SA, UniSuper (partner), AMP Ltd, Ansell Ltd, ANZ Banking Group Ltd, BHP Billiton Ltd, Bionomics Ltd, Coca Cola Amatil Ltd, Computershare Ltd, NAB Ltd, GBE Insurance Group Ltd, Ramsay Healthcare Ltd, Tabcorp Holdings Ltd, Telstra Corporation Ltd, Woolworths Group Ltd, Woodside Petroleum Ltd. ",
+        "Trusts": "NA",
+        "Interests in land": "Dwelling in Mount Barker, SA 5251",
+        "Directorships": "NA",
+        "Political and Trade and Professional Associations": "Liberal Party of Australia (SA Division), Australian Institute of Company Directors, Law Society of South Australia, Agricultural Bureau of South Australia, Commonwealth Parliamentary Association, Various clubs and organisations within the electorate of Kavel. "
+      }
+    }
+  },
+  "land": {
+    "total": 89,
+    "mostPerPerson": {
+      "count": 9,
+      "person": {
+        "image": "profile",
+        "name": "Mr Troy Bell",
+        "party": "IND",
+        "district": "Mount Gambier",
+        "x": "HA",
+        "type": "State",
+        "Income": "Limestone Coast Local Government Association (spouse)",
+        "Investments": "Shares - Telstra (self), Shares - TAB (self), Shares - Santos (as part of self-managed superannuation fund (spouse)",
+        "Trusts": "N/A",
+        "Interests in land": "Residence in Mount Gambier, SA, 2 units in Mount Gambier, SA, half share in block of land in Mount Gambier (spouse), SA, property at Glengowrie SA, property at Yarrabilba QLD, shack at Pelican Point.",
+        "Directorships": "Bellistic Pty Ltd (spouse) director.",
+        "Political and Trade and Professional Associations": "Liberal Party of South Australia."
+      }
+    }
+  }
+}

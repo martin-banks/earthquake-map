@@ -1,0 +1,21 @@
+{
+  "total": 89,
+  "mostPerPerson": {
+    "count": 9,
+    "person": {
+      "image": "profile",
+      "name": "Mr Troy Bell",
+      "party": "IND",
+      "district": "Mount Gambier",
+      "x": "HA",
+      "type": "State",
+      "Income": "Limestone Coast Local Government Association (spouse)",
+      "Investments": "Shares - Telstra (self), Shares - TAB (self), Shares - Santos (as part of self-managed superannuation fund (spouse)",
+      "Trusts": "N/A",
+      "Interests in land": "Residence in Mount Gambier, SA, 2 units in Mount Gambier, SA, half share in block of land in Mount Gambier (spouse), SA, property at Glengowrie SA, property at Yarrabilba QLD, shack at Pelican Point.",
+      "Directorships": "Bellistic Pty Ltd (spouse) director.",
+      "Political and Trade and Professional Associations": "Liberal Party of South Australia."
+    }
+  },
+  "key": "Interests in land"
+}
