@@ -2,7 +2,7 @@
 
 /dist/UAT
 /dist/UAT*
-/dist/PROD*
+# /dist/PROD*
 
 /node-scripts/process-images/images.json
 
