@@ -19,7 +19,7 @@
     "project": "cat ./src/content/project.json"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "balance-text": "^3.2.1",
     "canvas-confetti": "0.0.3",
     "chart.js": "^2.7.2",
