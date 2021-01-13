@@ -70,20 +70,19 @@
         </div>
 
       </div>
-      <div class="ticks__wrapper">
+      <!-- Needs to be calculated based on dates range stored -->
+      <!-- <div class="ticks__wrapper">
         <div
           v-for="day in (days + 1)"
           :key="`tick-${day}`"
           class="tick"
         ></div>
-      </div>
+      </div> -->
       <div class="timeline__labels">
-        <p>{{ quakeDate(dateRange.from) }}</p>
-        <p>{{ quakeDate(dateRange.to) }}</p>
+        <p :style="{ left: `${bracket.from * 100}%` }">{{ quakeDate(timelineRange.from) }}</p>
+        <p :style="{ left: `${bracket.to * 100}%` }">{{ quakeDate(timelineRange.to) }}</p>
       </div>
     </div>
-
-
     <!-- <button
       @mouseover="testfunc"
     >test button</button> -->
@@ -107,7 +106,6 @@ export default {
       map: null,
       tile: {
         subdomains: 'abcd',
-        maxZoom: 19,
         // ? Light
         // layer: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png',
         // ? Dark
@@ -121,7 +119,9 @@ export default {
       },
       details: false,
       responseData: null,
+      dates: { from: 0, to: 0 },
       dateRange: null,
+      timelineRange: { from: 0, to: 0 },
       sliding: false,
       slideTarget: null,
       bracket: {
@@ -134,8 +134,13 @@ export default {
   },
   methods: {
     initMap () {
-      const { map: { coords, zoom } } = this.$root.content
-      this.myMap = L.map(this.$el.querySelector('#map')).setView([coords.lat, coords.lng], zoom)
+      const { map: { coords, zoom, minZoom, maxZoom } } = this.$root.content
+      this.myMap = L
+        .map(this.$el.querySelector('#map'))
+        .setView([coords.lat, coords.lng], zoom)
+      this.myMap.options.minZoom = minZoom
+      this.myMap.options.maxZoom = maxZoom
+
       this.tileLayer = L.tileLayer(
         // this.tile.layer,
         `https://cartodb-basemaps-{s}.global.ssl.fastly.net/${this.theme}_all/{z}/{x}/{y}{r}.png`,
@@ -261,8 +266,10 @@ export default {
       const year = date.getFullYear()
       const month = months[date.getMonth()]
       const day = date.getDate()
+      const hours = date.getHours()
+      const minutes = `0${date.getMinutes()}`.slice(-2)
 
-      return `${day} ${month} ${year}`
+      return `${day} ${month} ${year}, ${(hours > 12) ? hours - 12 : hours}:${minutes} ${(hours >= 12) ? 'pm' : 'am'}`
     },
     startTimelineScale (type) {
       this.slideTarget = type
@@ -282,11 +289,13 @@ export default {
         if (this.slideTarget === 'from') {
           const draggedPosition = Math.max(0, (mouseLeft - left) / (this.$el.offsetWidth - (2 * left)))
           this.bracket.from = draggedPosition > (this.bracket.to - 0.03) ? this.bracket.to - 0.03 : draggedPosition
+          this.timelineRange.from = this.dates.from + (this.bracket.from * this.dateRange.range)
 
         } else if (this.slideTarget === 'to') {
           const draggedPosition = Math.min(1, (mouseLeft - left) / (this.$el.offsetWidth - (2 * left)))
           // this.bracket.to = Math.min(1, (mouseLeft - left) / this.$el.offsetWidth)
           this.bracket.to = draggedPosition < (this.bracket.from + 0.03) ? this.bracket.from + 0.03 : draggedPosition
+          this.timelineRange.to = this.dates.from + (this.dateRange.range * this.bracket.to)
         }
 
         this.bracket.width = 1 - this.bracket.from - (1 - this.bracket.to)
@@ -341,7 +350,9 @@ export default {
         const from = Math.min(...dates)
         const to = Math.max(...dates)
         const range = to - from
+        this.dates = { from, to }
         this.dateRange = { from, to, range }
+        this.timelineRange = { from, to }
         this.showControls = (!('ontouchstart' in document.documentElement))
       })
       .catch(console.error)
@@ -396,7 +407,7 @@ $backdrop-blur: 10px
     @media (prefers-color-scheme: dark)
       color: white !important
   p
-    text-transform: capitalize
+    // text-transform: capitalize
     margin: 0 !important
   h3:first-letter
     text-transform: uppercase
@@ -438,7 +449,7 @@ $backdrop-blur: 10px
     top: 100vh
     width: 100%
     transform: translateY(-100%)
-    padding: 32px
+    padding: 32px 32px 64px 32px
     z-index: 100
     backdrop-filter: blur($backdrop-blur)
     background: rgba(255,255,255, 0.5)
@@ -446,7 +457,8 @@ $backdrop-blur: 10px
       background: rgba(0,0,0, 0.3)
   &__track
     height: 40px
-    margin-bottom: 12px
+    // margin-bottom: 12px
+    margin: 32px 0
   &__mark
     position: absolute !important
     top: 0
@@ -454,19 +466,23 @@ $backdrop-blur: 10px
     width: 1px
     background: rgba($color-grey-5, 0.2)
     @media screen and (prefers-color-scheme: dark)
-      background: rgba(255,255,255, 0.4)
+      background: rgba(255,255,255, 0.1)
   &__labels
-    display: flex
+    // display: flex
     p
-      flex: 1 1 auto
+      position: absolute
+      // flex: 1 1 auto
+      width: auto
       margin: 0
-      color: $color-grey-5
+      white-space: nowrap
       font-weight: 600 !important
       font-size: 12px !important
+      color: $color-grey-5
       @media screen and (prefers-color-scheme: dark)
         color: white
       &:nth-of-type(even)
-        text-align: right
+        transform: translateX(-100%)
+        // text-align: right
   &__controls
     &--wrapper
       height: 100%
