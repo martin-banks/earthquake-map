@@ -13,17 +13,17 @@ export default {
   // allImages: importAllImages(require.context('../images', false, /\.js/)),
 
   header: {
-    title: 'Seven days of earth quakes',
+    title: 'Seven days of earthquakes',
     intro: false,
   },
   parts: [],
 
   map: {
     coords: {
-      lat: 35,
+      lat: 15,
       lng: 180,
     },
-    zoom: 1.8,
+    zoom: 3,
   },
 
   popups: [
