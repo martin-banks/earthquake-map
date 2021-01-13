@@ -24,6 +24,8 @@ export default {
       lng: 180,
     },
     zoom: 3,
+    maxZoom: 10,
+    minZoom: 3,
   },
 
   popups: [
