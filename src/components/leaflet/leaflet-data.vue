@@ -28,6 +28,10 @@
 
     <div v-if="responseData" class="timeline__wrapper">
       <h4 class="timeline__title">Timeline of quakes</h4>
+      <div class="timeline__labels">
+          <p :style="{ left: `${bracket.from * 100}%` }">{{ quakeDate(timelineRange.from) }}</p>
+          <!-- <p :style="{ left: `${bracket.to * 100}%` }">{{ quakeDate(timelineRange.to) }}</p> -->
+        </div>
       <div
         class="timeline__track"
         @mousemove="changeTimelineScale"
@@ -79,8 +83,10 @@
         ></div>
       </div> -->
       <div class="timeline__labels">
-        <p :style="{ left: `${bracket.from * 100}%` }">{{ quakeDate(timelineRange.from) }}</p>
-        <p :style="{ left: `${bracket.to * 100}%` }">{{ quakeDate(timelineRange.to) }}</p>
+        <!-- <p :style="{ left: `${bracket.from * 100}%` }">{{ quakeDate(timelineRange.from) }}</p> -->
+        <p class="timeline__labels--right" :style="{ left: `${bracket.to * 100}%` }">
+          {{ quakeDate(timelineRange.to) }}
+        </p>
       </div>
     </div>
     <!-- <button
@@ -113,10 +119,10 @@ export default {
         attr:
           '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
       },
-      coords: {
-        center: [52, 0],
-        zoom: 15,
-      },
+      // coords: {
+      //   center: [52, 0],
+      //   zoom: 15,
+      // },
       details: false,
       responseData: null,
       dates: { from: 0, to: 0 },
@@ -441,6 +447,7 @@ $backdrop-blur: 10px
 
 .timeline
   &__title
+    margin-bottom: 24px !important
     @media screen and (prefers-color-scheme: dark)
       color: white !important
   &__wrapper
@@ -458,7 +465,7 @@ $backdrop-blur: 10px
   &__track
     height: 40px
     // margin-bottom: 12px
-    margin: 32px 0
+    margin: 20px 0
   &__mark
     position: absolute !important
     top: 0
@@ -468,6 +475,7 @@ $backdrop-blur: 10px
     @media screen and (prefers-color-scheme: dark)
       background: rgba(255,255,255, 0.1)
   &__labels
+    min-height: 16px
     // display: flex
     p
       position: absolute
@@ -480,9 +488,9 @@ $backdrop-blur: 10px
       color: $color-grey-5
       @media screen and (prefers-color-scheme: dark)
         color: white
-      &:nth-of-type(even)
-        transform: translateX(-100%)
-        // text-align: right
+    &--right
+      transform: translateX(-100%)
+      text-align: right
   &__controls
     &--wrapper
       height: 100%
