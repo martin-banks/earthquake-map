@@ -27,7 +27,7 @@
     </div>
 
     <div v-if="responseData" class="timeline__wrapper">
-      <h4>Timeline of quakes</h4>
+      <h4 class="timeline__title">Timeline of quakes</h4>
       <div
         class="timeline__track"
         @mousemove="changeTimelineScale"
@@ -108,7 +108,10 @@ export default {
       tile: {
         subdomains: 'abcd',
         maxZoom: 19,
-        layer: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png',
+        // ? Light
+        // layer: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png',
+        // ? Dark
+        // layer: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}{r}.png',
         attr:
           '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
       },
@@ -134,7 +137,8 @@ export default {
       const { map: { coords, zoom } } = this.$root.content
       this.myMap = L.map(this.$el.querySelector('#map')).setView([coords.lat, coords.lng], zoom)
       this.tileLayer = L.tileLayer(
-        this.tile.layer,
+        // this.tile.layer,
+        `https://cartodb-basemaps-{s}.global.ssl.fastly.net/${this.theme}_all/{z}/{x}/{y}{r}.png`,
         { attribution: this.tile.attr }
       )
       this.tileLayer.addTo(this.myMap)
@@ -213,6 +217,9 @@ export default {
           quake.type = 'circlemarker'
           quake.addEventListener('mouseover', this.mouseOverQuake.bind(false, { data: f }))
 
+          // ? Duplicates the points to the left so that points are fully displayed around the pacific
+          // ? The Pacific (or ring of fire) has the greates density of quakes so is the area of greates interest
+          // ? Only the initial set counts as entries that are recorded on the timeline
           const quakeAlt = L.circleMarker([coordinates[1], coordinates[0]+360], {
             radius: 5 * f.properties.mag,
             fillColor: `hsl(${50 * ((10 - f.properties.mag) / 10)}, 100%, 50%)`,
@@ -254,7 +261,7 @@ export default {
       const year = date.getFullYear()
       const month = months[date.getMonth()]
       const day = date.getDate()
-      
+
       return `${day} ${month} ${year}`
     },
     startTimelineScale (type) {
@@ -268,15 +275,16 @@ export default {
     },
     changeTimelineScale (e) {
       if (this.sliding && this.slideTarget) {
-        const { left } = this.$el.getBoundingClientRect()
+        // const { left } = this.$el.getBoundingClientRect()
+        const left = 32
         const mouseLeft = e.pageX
 
         if (this.slideTarget === 'from') {
-          const draggedPosition = Math.max(0, (mouseLeft - left) / this.$el.offsetWidth)
+          const draggedPosition = Math.max(0, (mouseLeft - left) / (this.$el.offsetWidth - (2 * left)))
           this.bracket.from = draggedPosition > (this.bracket.to - 0.03) ? this.bracket.to - 0.03 : draggedPosition
 
         } else if (this.slideTarget === 'to') {
-          const draggedPosition = Math.min(1, (mouseLeft - left) / this.$el.offsetWidth)
+          const draggedPosition = Math.min(1, (mouseLeft - left) / (this.$el.offsetWidth - (2 * left)))
           // this.bracket.to = Math.min(1, (mouseLeft - left) / this.$el.offsetWidth)
           this.bracket.to = draggedPosition < (this.bracket.from + 0.03) ? this.bracket.from + 0.03 : draggedPosition
         }
@@ -294,6 +302,9 @@ export default {
         left: 0,
         width: 0,
       }
+    },
+    theme () {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
     }
   },
 
@@ -344,6 +355,12 @@ export default {
 @import index
 @import leaflet
 
+$backdrop-blur: 10px
+
+.map__wrapper
+  width: 100vw
+  height: 100vh
+
 #map, #testmap, #newmap, #childmap
   // height: 0px
   // padding-bottom: 60%
@@ -365,19 +382,25 @@ export default {
   position: absolute !important
   top: 0
   right: 0
-  color: white
   width: 100%
   max-width: 400px
   padding: 16px
-  background: rgba(black, 0.4)
+  background: rgba(white, 0.4)
+  backdrop-filter: blur($backdrop-blur)
+  @media (prefers-color-scheme: dark)
+    background: rgba(black, 0.4)
   // border-radius: 4px
   // +shadow-box-2
   z-index: 10000
   *
-    color: white !important
+    @media (prefers-color-scheme: dark)
+      color: white !important
   p
     text-transform: capitalize
     margin: 0 !important
+  h3:first-letter
+    text-transform: uppercase
+
 
 .magnitude
   &__wrapper
@@ -404,16 +427,23 @@ export default {
     border-radius: 20px
     transform: translate(-50%, 0)
 
+
 .timeline
+  &__title
+    @media screen and (prefers-color-scheme: dark)
+      color: white !important
   &__wrapper
     position: absolute !important
     display: block
     top: 100vh
     width: 100%
     transform: translateY(-100%)
-    background: rgba(255,255,255, 0.5)
     padding: 32px
     z-index: 100
+    backdrop-filter: blur($backdrop-blur)
+    background: rgba(255,255,255, 0.5)
+    @media screen and (prefers-color-scheme: dark)
+      background: rgba(0,0,0, 0.3)
   &__track
     height: 40px
     margin-bottom: 12px
@@ -423,6 +453,8 @@ export default {
     height: 40px
     width: 1px
     background: rgba($color-grey-5, 0.2)
+    @media screen and (prefers-color-scheme: dark)
+      background: rgba(255,255,255, 0.4)
   &__labels
     display: flex
     p
@@ -431,6 +463,8 @@ export default {
       color: $color-grey-5
       font-weight: 600 !important
       font-size: 12px !important
+      @media screen and (prefers-color-scheme: dark)
+        color: white
       &:nth-of-type(even)
         text-align: right
   &__controls
