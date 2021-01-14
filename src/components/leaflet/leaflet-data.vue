@@ -2,31 +2,29 @@
   <div>
     <div class="map__wrapper">
       <div id="map"></div>
-      <div v-if="details.properties" class="quakeDetails">
-        <h6 v-if="details.properties">{{ details.properties.type }}</h6>
-        <h3 v-if="details.properties">{{ details.properties.place }}</h3>
-        <p v-if="details.properties">{{ quakeDate(details.properties.time) }}</p>
-        <div  class="magnitude__wrapper">
-          <p>Magnitude: {{ details.properties.mag }}</p>
-          <div class="magnitude__track">
-            <div
-              class="magnitude__mark"
-              :style="{
-                left: `${details.properties.mag / 10 * 100}%`,
-              }"
-            ></div>
-          </div>
-        </div>
-        <p v-if="details.properties && details.properties.tsunami">
-          Tsunami warning issued
-        </p>
-        <p v-else>
-          No tsunami warning
-        </p>
-      </div>
     </div>
 
     <div v-if="responseData" class="timeline__wrapper">
+      <div v-if="details.properties" class="quakeDetails">
+        <div class="quakeDetails__content">
+          <h6 v-if="details.properties">{{ details.properties.type }}</h6>
+          <h3 v-if="details.properties">{{ details.properties.place }}</h3>
+          <p v-if="details.properties">{{ quakeDate(details.properties.time) }}</p>
+
+          <div  class="magnitude__wrapper">
+            <p>Magnitude: {{ details.properties.mag }}</p>
+          </div>
+          <div class="magnitude__track">
+            <div class="magnitude__mark"
+              :style="{ left: `${details.properties.mag / 10 * 100}%` }"
+            />
+          </div>
+
+          <p v-if="details.properties && details.properties.tsunami">Tsunami warning issued</p>
+          <p v-else>No tsunami warning</p>
+        </div>
+      </div>
+
       <h4 class="timeline__title">Timeline of quakes</h4>
       <div class="timeline__labels">
           <p :style="{ left: `${bracket.from * 100}%` }">{{ quakeDate(timelineRange.from) }}</p>
@@ -330,12 +328,16 @@ export default {
     this.initMap()
     if (markers) this.addMarkers()
 
-    const today = new Date()
-    const lastweek = new Date(new Date().setDate(today.getDate() - this.days))
+    // const firstDay = new Date(today - this.days) // midnight x days ago
+    // const today = new Date(new Date().setHours(0,0,0,0))
+    const today = new Date(new Date().setHours(0,0,0,0)) // midnight today
+    const firstDay = new Date(new Date().setDate(today.getDate() - this.days))
 
-    const monthFrom = `0${lastweek.getMonth() + 1}`.slice(-2)
-    const dayFrom = `0${lastweek.getDate()}`.slice(-2)
-    const yearFrom = lastweek.getFullYear()
+    console.log({ firstDay, today })
+
+    const monthFrom = `0${firstDay.getMonth() + 1}`.slice(-2)
+    const dayFrom = `0${firstDay.getDate()}`.slice(-2)
+    const yearFrom = firstDay.getFullYear()
 
     const monthTo = `0${today.getMonth() + 1}`.slice(-2)
     const dayTo = `0${today.getDate()}`.slice(-2)
@@ -345,20 +347,28 @@ export default {
     const dateTo = `${yearTo}-${monthTo}-${dayTo}`
 
     const endpoint = `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=${dateFrom}&endtime=${dateTo}`
-    // console.log(endpoint)
+    console.log(endpoint)
 
     fetch(endpoint)
       .then(res => res.json())
       .then(data => {
         this.responseData = data
+        console.log('number of quakes', data.features.length)
         this.renderQuakes()
+        const felt = data.features.filter(f => f.properties.felt)
+        const tsunami = data.features.filter(f => f.properties.tsunami)
+        console.log({ felt, tsunami })
+
         const dates = data.features.map(f => f.properties.time)
         const from = Math.min(...dates)
         const to = Math.max(...dates)
         const range = to - from
         this.dates = { from, to }
         this.dateRange = { from, to, range }
-        this.timelineRange = { from, to }
+        this.timelineRange = {
+          from: new Date(new Date(from).setHours(0,0,0,0)),
+          to: new Date((to + 1)).setHours(0,0,0,0),
+        }
         this.showControls = (!('ontouchstart' in document.documentElement))
       })
       .catch(console.error)
@@ -396,16 +406,16 @@ $backdrop-blur: 10px
     font-weight: 800
 
 .quakeDetails
-  position: absolute !important
   top: 0
   right: 0
   width: 100%
-  max-width: 400px
-  padding: 16px
-  background: rgba(white, 0.4)
-  backdrop-filter: blur($backdrop-blur)
+  margin-bottom: 24px
+  padding-bottom: 24px
+  border-bottom: solid 1px $color-grey-8
+  &__content
+    max-width: 400px
   @media (prefers-color-scheme: dark)
-    background: rgba(black, 0.4)
+    // background: rgba(black, 0.4)
   // border-radius: 4px
   // +shadow-box-2
   z-index: 10000
