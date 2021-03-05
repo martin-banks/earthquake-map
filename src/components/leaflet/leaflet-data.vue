@@ -470,6 +470,7 @@ $backdrop-blur: 10px
     z-index: 100
     backdrop-filter: blur($backdrop-blur)
     background: rgba(255,255,255, 0.5)
+    overflow: hidden
     @media screen and (prefers-color-scheme: dark)
       background: rgba(0,0,0, 0.3)
   &__track
