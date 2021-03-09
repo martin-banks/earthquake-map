@@ -58,7 +58,7 @@ module.exports = {
     // Template for index.html
     // index: path.resolve(__dirname, `../dist/${distOutput}/preview.html`),
     // Replace preview.html file for html file with hased project name to redice discoverability
-    index: path.resolve(__dirname, `../dist/${distOutput}/${md5(project)}.html`),
+    index: path.resolve(__dirname, `../dist/${distOutput}/index.html`),
 
     // Paths
     // assetsRoot: path.resolve(__dirname, `../dist/${env}`),
@@ -67,7 +67,8 @@ module.exports = {
     // assetsPublicPath: './',
     assetsRoot: path.resolve(__dirname, `../dist/${distOutput}`),
     assetsSubDirectory: 'static',
-    assetsPublicPath: `${paths[env]}/${process.cwd().toLowerCase().split('t3interactives/')[1] || project}/dist/${env}/`,
+    // assetsPublicPath: `${paths[env]}/${process.cwd().toLowerCase().split('t3interactives/')[1] || project}/dist/${env}/`,
+    assetsSubDirectory: env ? paths[env.toUpperCase()] + '/' : '/',
 
     /**
      * Source Maps
